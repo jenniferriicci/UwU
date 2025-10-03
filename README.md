@@ -2,7 +2,7 @@
 my dots and themes for a very uwu rice
 # My XFCE4 Customization Dotfiles
 
-This package contains my personal XFCE4 desktop customizations, including themes, icons, cursor, panels, and terminal appearance. You can use it to make your desktop look like mine!
+This package contains my personal XFCE4 desktop customizations, including themes, cursor, panels, and terminal appearance. You can use it to make your desktop look like mine!
 
 ## Included Customizations
 
@@ -16,15 +16,19 @@ This package contains my personal XFCE4 desktop customizations, including themes
   * Colors, transparency, background, font, etc.
   * Saved in `~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml`
 
-* **Themes & Icons**
+* **Themes & Cursor**
 
   * GTK theme: `Quartz-Chicle`
   * Cursor theme: `Oxygen-06-Magenta`
-  * Icon pack: `MoePinkIcons`
 
 * **GTK2 Configuration**
 
   * `.gtkrc-2.0` settings for older apps
+
+* **Icon Pack Notice**
+
+  * The icon pack I use (MoePinkIcons) is **not included** in the file due to its large size.
+  * You can download it here: [MoePinkIcons / Moebuntu Themes](https://moebuntu.web.fc2.com/moethemes_eng.html)
 
 ## Installation
 
@@ -33,15 +37,16 @@ This package contains my personal XFCE4 desktop customizations, including themes
 1. Extract the archive:
 
 ```bash
-tar -xzf meus-dots-completos.tar.gz -C ~
+tar -xzf meus-dots.tar.gz -C ~
 ```
 
 2. Restart XFCE session or log out and back in to apply:
 
 * Panels, launchers, and terminal settings will be restored.
-* Themes and icons will be available in Appearance and Settings.
+* Themes and cursor will be available in **Settings → Appearance**.
 
 3. Optional: Set GTK theme and cursor manually in **Settings → Appearance**.
+4. Download and install MoePinkIcons separately from the link above to fully replicate my setup.
 
 ## Notes
 
